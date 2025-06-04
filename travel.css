@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* nav{} */
+header {
+    background-image: linear-gradient(45deg, black, #0000004d), url("../pic/backgound.jpeg");
+    height: 100vh;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-position: center;
+    /* width: 100vw; */
+    overflow: hidden;
+}
+
+.topnav {
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-template-columns: auto auto auto auto;
+}
+
+.nav-menu {
+    display: flex;
+    /* color:white */
+    margin: 30px;
+}
+
+.nav-menu li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-inline-start: 70px;
+    font-size: 20px;
+
+}
+
+h1 {
+    color: white;
+}
+
+.btn-sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease-in-out;
+}
+
+.btn-sign-up:hover {
+    transition: all 0.4s ease-in-out;
+    background-color: brown;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.sign-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease-in-out;
+}
+
+.sign-in:hover {
+    transition: all 0.4s ease-in-out;
+    background-color: brown;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.main {
+    margin: auto;
+}
+
+.title {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    color: white;
+    font-size: 30px;
+}
+
+.button {
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    border: 1px solid #00ffff;
+    padding: 5px 20px;
+    color: aqua;
+    transition: 0.5 ease;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease-in-out;
+}
+
+.button:hover {
+    transition: all 0.6s ease-in-out;
+    background-color: brown;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease-in-out;
+}
+
+main {
+    background-color: aliceblue;
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+     font-size: 18px;
+} 
+
+h4 {
+    color: rgb(255, 255, 255);
+    font-size: 33px;
+}
+
+.card-container {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 20px;
+
+}
+
+section h1 {
+    text-align: center;
+    color: rgb(4, 4, 4);
+    margin-bottom: 30px;
+    height: 30px;
+}
+
+section p {
+    text-align: center;
+    margin: 25px;
+}
+
+.card {
+    flex-basis: 30.3%;
+    box-shadow: 0px 0px 10px 3px lightgrey;
+    padding: 20px;
+    margin: 20px 10px;
+    text-align: center;
+    color: rgb(64, 91, 137);
+}
+
+.card a {
+    border: 1px solid rgb(136, 186, 201);
+    padding: 4px 1px;
+    background: rgb(114, 145, 150);
+    color: #ffffff;
+    text-decoration: none;
+    background-color: rgb(124, 124, 124);
+    padding-inline: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(11, 11, 11);
+    font-size: xx-large;
+    padding-top: 30px;
+}
+.video{
+    width:2500px;
+    height:550px;
+    margin-bottom: 20px;
+    background-color: black;
+}
+
+.form_section {
+    background:linear-gradient(45deg, black, #0000004d), url("../pic/summer-travel-vacation-concept-happy-260nw-1978655663.webp");
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    /* text-align: center; */
+    
+}
+.form_section h2{ 
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+form{
+    display: grid;
+    grid-template-columns: auto auto;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    justify-items: end;
+}
+
+input{
+    margin: 20px;
+}
+
+
+
+input#fname{
+    text-align: left;
+    margin-top: 1em;
+    padding: 0.85em 0.15em;
+    width: 700px;
+    background: transparent;
+    color:white;
+    border-radius: 0;
+    font-size: 25px;
+    height: 100px;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    outline: none;
+
+}
+input#lname{
+    text-align: left;
+    margin-top: 1em;
+    padding: 0.85em 0.15em;
+    width: 700px;
+    background: transparent;
+    color:white;
+    border-radius: 0;
+    font-size: 25px;
+    height: 100px;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    outline: none;
+}
+
+input#phone-no{
+    text-align: left;
+    margin-top: 1em;
+    padding: 0.85em 0.15em;
+    width:700px;
+    background: transparent;
+    color:white;
+    border-radius: 0;
+    font-size: 25px;
+    height: 100px;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    outline: none;
+}
+
+input#email{
+    text-align: left;
+    margin-top: 1em;
+    padding: 0.85em 0.15em;
+    width: 700px;
+    color: white;
+    background: transparent;
+    border-radius: 0;
+    font-size: 25px;
+    height: 100px;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    outline: none;
+}
+
+input[type="submit"] 
+{
+    HEIGHT: 40PX;
+    width: 120px;
+    text-align:center;
+    margin-right: -75px;
+}
+
+
+input:focus {
+    border: transparent;
+    border-bottom: #00ffff;
+  }
+footer{
+    background:linear-gradient(45deg, black, #0000004d);
+    height: 100px;
+    width: 100%;
+    color: white;
+  }
+  .p{
+    height: 100px;
+    color: rgb(252, 242, 242);
+    font-size: 33px;
+    /* text-align: center; */
+    padding-top:33px;
+}
